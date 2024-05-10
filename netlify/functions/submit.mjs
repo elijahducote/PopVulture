@@ -20,7 +20,7 @@ exports.handler = async (event, context) => {
     // Set up the Resend API request
     const from = 'PopVulture <info@popvulture.org>';
     const to = 'evanducote@gmail.com';
-    const subject = 'PopVulture Form Submission';
+    const subject = `PopVulture Form Submission from ${formData.email}`;
     const body = formData.message;
 
     // Set up the email request
