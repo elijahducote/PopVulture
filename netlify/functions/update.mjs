@@ -11,8 +11,7 @@ fyl,
 token,
 NTH;
 
-console.log(process.env.TOKEN)
-async function eventhandler () {
+exports.handler = async function (event, context) {
 try {
 await axios.get("https://api.github.com/repos/elijahducote/EV-Website/contents/automation.json",{headers:{"Accept":"application/vnd.github+json","Authorization":`Bearer ${process.env.TOKEN}`,"X-GitHub-Api-Version":"2022-11-28"}})
  .then(response => {
@@ -111,4 +110,3 @@ catch (error) {
  };
 }
 }
-eventhandler();
