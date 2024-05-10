@@ -15,7 +15,7 @@ module.exports = {
           "White": "#FFFFFF",
           "Black": "#000000"
         },
-        "Pimary": {
+        "Primary": {
           "300": "#0284c7ff",
           "500": "#4aa4e3ff",
           "700": "#c3e5faff",
