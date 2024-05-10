@@ -26,7 +26,7 @@ exports.handler = async (event, context) => {
       headers: {
         'Authorization': `Bearer ${process.env.RESEND}`,
         'Content-Type': 'application/json',
-    'X-Entity-Ref-ID': Math.floor(Date.now() / 1000).toString(),
+        'X-Entity-Ref-ID': Math.floor(Date.now() / 1000).toString(),
       },
       body: JSON.stringify(emailRequest),
     });
