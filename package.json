@@ -6,6 +6,8 @@
   "dependencies": {
     "axios": "^1.6.8",
     "fast-average-color": "^9.4.0",
+    "node-fetch": "^3.3.2",
+    "querystring": "^0.2.1",
     "vanjs-core": "^1.5.0",
     "vanjs-ext": "^0.6.0"
   },
