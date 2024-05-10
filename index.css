@@ -683,6 +683,8 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	animation: 4s infinite glow;
+  font-size:1.75rem;
+  font-weight:700;
 }
 .home-container3 {
   width: 100%;
