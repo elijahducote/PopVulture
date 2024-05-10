@@ -10,7 +10,7 @@
     "vanjs-ext": "^0.6.0"
   },
   "scripts": {
-    "dot": "node esbuild.config.js",
+    "do": "node esbuild.config.js",
     "tailwind": "tailwindcss -o style.css -c ./tailwind.config.js"
   },
   "devDependencies": {
