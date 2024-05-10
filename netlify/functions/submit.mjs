@@ -2,17 +2,6 @@ import { parse } from 'querystring';
 import fetch from 'node-fetch';
 
 exports.handler = async (event, context) => {
-  // Ensure the function only responds to POST requests
-  if (event.httpMethod !== 'POST') {
-    return {
-      statusCode: 405,
-      body: 'Method Not Allowed',
-      headers: {
-        'Allow': 'POST'
-      }
-    };
-  }
-
   try {
     // Parse the incoming form data
     const formData = parse(event.body);
