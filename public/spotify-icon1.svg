@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800"
+   height="800"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="spotify-icon.svg"
+   inkscape:export-filename="spotify-icon.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:export-bgcolor="#ffffff00" />
+  <defs
+     id="defs1" />
+  <path
+     fill="#1ed760"
+     fill-rule="evenodd"
+     d="M 12,0 C 5.3726755,0 0,5.3724988 0,11.999823 0,18.627855 5.3726755,24 12,24 18.627501,24 24,18.627855 24,11.999823 24,5.3724988 18.627501,0 12,0"
+     id="path1"
+     style="fill:#000000;fill-opacity:1;stroke-width:0.99999;stroke-dasharray:none"
+     sodipodi:nodetypes="csssc" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 1">
+    <path
+       d="M 18.82837,10.638279 C 14.960178,8.3411812 8.5800376,8.1298644 4.8872949,9.2505853 4.2943359,9.4306286 3.6672764,9.0958081 3.4875865,8.5028491 3.3078966,7.9095366 3.6423636,7.2828305 4.2358527,7.1026105 8.4745558,5.8159813 15.52098,6.0644021 19.974004,8.7078051 c 0.533415,0.3166218 0.708512,1.0055215 0.392243,1.5378769 -0.316445,0.533416 -1.005698,0.709219 -1.537877,0.392597 m -0.126684,3.402447 C 18.430473,14.481028 17.854652,14.61902 17.41488,14.34869 14.190003,12.366447 9.2726476,11.792217 5.4572848,12.950395 4.9625633,13.099872 4.4399253,12.820884 4.289742,12.327046 4.1406188,11.832325 4.4197831,11.310747 4.9136212,11.16021 9.2719409,9.8377137 14.690025,10.478201 18.393899,12.75445 c 0.439772,0.27086 0.578117,0.846858 0.307787,1.286276 m -1.468263,3.267459 c -0.215734,0.353549 -0.676178,0.464331 -1.02849,0.248951 C 13.38714,15.834798 9.840164,15.445912 5.6631242,16.400018 5.260633,16.492248 4.8593785,16.23994 4.7676783,15.837625 4.6754481,15.435134 4.926696,15.03388 5.3302474,14.942003 9.901297,13.89708 13.822319,14.346747 16.985179,16.279694 c 0.352666,0.215204 0.463801,0.676002 0.248244,1.028491"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.99999;stroke-dasharray:none"
+       id="path1-3" />
+  </g>
+</svg>

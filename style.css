@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+ 
+ @font-face {
+  font-family: "HVDPoster";
+  font-style: normal;
+  font-format: truetype;
+  font-weight: 400;
+  src: url("public/fonts/hvd poster.ttf") ;
+}
+:root {
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #c3c5c9ff;
+  --dl-size-size-unit: 1rem;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-color-pimary-300: #0284c7ff;
+  --dl-color-pimary-500: #4aa4e3ff;
+  --dl-color-pimary-700: #c3e5faff;
+  --dl-color-pimary-800: #e3e8efff;
+  --dl-color-pimary-900: #f2f5f9ff;
+  --dl-space-space-unit: 1rem;
+  --dl-size-size-halfunit: 0.5rem;
+  --dl-color-secondary-100: #111729ff;
+  --dl-color-secondary-300: #1e293bff;
+  --dl-color-secondary-400: #334155ff;
+  --dl-color-secondary-500: #677b8eff;
+  --dl-color-secondary-700: #94a3b8ff;
+  --dl-radius-radius-round: 50%;
+  --dl-size-size-doubleunit: 2rem;
+  --dl-size-size-tripleunit: 3rem;
+  --dl-space-space-halfunit: 0.5rem;
+  --dl-radius-radius-radius4: 4px;
+  --dl-space-space-fiveunits: 5rem;
+  --dl-radius-radius-radius25: 0.25rem;
+  --dl-radius-radius-radius50: 0.5rem;
+  --dl-radius-radius-radius75: 0.75rem;
+  --dl-space-space-doubleunit: 2rem;
+  --dl-space-space-threeunits: 48px;
+  --dl-space-space-tripleunit: 3rem;
+  --dl-space-space-twoandhalf: 2.5rem;
+  --dl-space-space-unitandhalf: 1.5rem;
+  --dl-space-space-triplequarter: 0.75rem;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.button {
+  color: var(--dl-color-gray-900);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-900);
+  cursor: auto;
+  padding: 0.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-900);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.email {
+  background-image: 7beb06af-3dc7-441c-b8e7-01bde6c4e861;
+}
+
+.filtered {
+  width: 100%;
+  filter: url(#f1);
+}
+.vignette {
+  box-shadow: 0 -5rem 10rem rgba(0,0,0,0.6) inset;
+  box-sizing: border-box;
+  align-items: center;
+  align-content: center;
+}
+.header {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 0.05rem solid rgba(177, 177, 177, 0.375);
+  height: 75px;
+  display: flex;
+  padding: var(--dl-space-space-unitandhalf);
+  z-index: 5;
+  position: fixed;
+  max-width: 1320px;
+  background: linear-gradient(180deg, rgb(0% 0% 0% / 0.625) 0%, rgb(0.012% 0.012% 0.012% / 0.74994384765625) 6.25%, rgb(0.098% 0.098% 0.098% / 0.74955078125) 12.5%, rgb(0.331% 0.331% 0.331% / 0.74848388671875) 18.75%, rgb(0.784% 0.784% 0.784% / 0.74640625) 25%, rgb(1.532% 1.532% 1.532% / 0.74298095703125) 31.25%, rgb(2.647% 2.647% 2.647% / 0.73787109375) 37.5%, rgb(4.203% 4.203% 4.203% / 0.73073974609375) 43.75%, rgb(6.275% 6.275% 6.275% / 0.72125) 50%, rgb(8.934% 8.934% 8.934% / 0.70906494140625) 56.25%, rgb(12.255% 12.255% 12.255% / 0.69384765625) 62.5%, rgb(16.311% 16.311% 16.311% / 0.67526123046875) 68.75%, rgb(21.176% 21.176% 21.176% / 0.65296875) 75%, rgb(26.924% 26.924% 26.924% / 0.62663330078125) 81.25%, rgb(33.627% 33.627% 33.627% / 0.59591796875) 87.5%, rgb(41.36% 41.36% 41.36% / 0.56048583984375) 93.75%, rgb(50.196% 50.196% 50.196% / 0.52) 100% );
+  border-top: none;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  align-items: center;
+  padding-top: 2rem;
+  border-radius: 1.25rem;
+  margin-bottom: 0.75rem;
+  flex-direction: row;
+  backdrop-filter:  blur(0.035rem);
+  justify-content: space-between;
+}
+
+
+
+.Healine {
+  font-size: 1.875rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+}
+.TextXL {
+  font-size: 1.25rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  text-decoration: none;
+}
+.TextSM {
+  font-size: 0.87rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  line-height: 1.25;
+  text-decoration: none;
+}
+.TextXS {
+  font-size: 0.75rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-transform: none;
+  text-decoration: none;
+}
+.Content {
+  font-size: 1.12rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  line-height: 1.75;
+  text-transform: none;
+  text-decoration: none;
+}
+.TextMD {
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  line-height: 1.25;
+  text-decoration: none;
+}
+.Text2XL {
+  font-size: 2.25rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: none;
+  text-decoration: none;
+}
+.Text3XL {
+  font-size: 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-transform: none;
+  text-decoration: none;
+}
+.TextLG {
+  font-size: 1.125rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  text-decoration: none;
+}
+
+
+
+
+

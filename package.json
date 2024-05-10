@@ -1,0 +1,38 @@
+{
+  "name": "notus-pro",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.html",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "fast-average-color": "^9.4.0",
+    "vanjs-core": "^1.5.0",
+    "vanjs-ext": "^0.6.0"
+  },
+  "scripts": {
+    "dev": "node esbuild.config.js",
+    "tailwind": "tailwindcss -o style.css -c ./tailwind.config.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.2",
+    "http-server": "^14.1.1",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.18.6",
+    "@babel/preset-env": "^7.24.4",
+    "@parcel/babel-preset-env": "^2.12.0",
+    "@parcel/transformer-css": "^2.12.0",
+    "autoprefixer": "^10.4.7",
+    "parcel": "^2.12.0",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
+  },
+  "transformers": {
+    "*.css": [
+      "@parcel/transformer-css",
+      {
+        "cssModules": true
+      }
+    ]
+  }
+}
