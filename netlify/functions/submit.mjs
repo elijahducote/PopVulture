@@ -11,7 +11,7 @@ exports.handler = async (event, context) => {
     
     // Set up the Resend API request
     const from = 'PopVulture <info@popvulture.org>';
-    const to = ['evanducote@gmail.com'];
+    const to = ['evbeats.net@gmail.com'];
     const email = formData.email.substring(0, formData.email.indexOf("@"));
     const subject = `PopVulture Submission from ${email}`;
     const text = formData.message;
